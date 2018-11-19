@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 2.8.12)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH};${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 
 option (ENABLE_ARCUS
-    "Enable support for ARCUS" ON)
+    "Enable support for ARCUS" OFF)
 
 if (ENABLE_ARCUS)
     message(STATUS "Building with Arcus")
